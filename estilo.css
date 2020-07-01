@@ -1,0 +1,65 @@
+header{
+    margin-top: 0px;  
+}
+
+body{
+    background-color: silver;
+      
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: yellowgreen;
+    text-align: center;
+}
+
+p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.img-contato{
+    margin-bottom: 15px;
+    width: 50px; 
+     
+}
+
+.navbar{
+   background-color: black;
+}
+
+.quem-sou{
+    background-color: red;
+    height: 300px;
+    color: black;
+    margin-bottom: 50px;  
+}
+.projetos{
+    background-color: blue;
+    height: 300px;
+    color: black;
+    margin-bottom: 50px;  
+}
+.certificacoes{
+    background-color: gold;
+    height: 300px;
+    color: black;
+    margin-bottom: 50px;  
+}
+.contato{
+    background-color: gold;
+    height: 300px;
+    color: gold;
+    margin-bottom: 50px;  
+}
+
+.margin{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.bg-footer{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
