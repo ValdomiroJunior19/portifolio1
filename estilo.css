@@ -76,5 +76,23 @@ p{
     background-color: black;
     color: white;
     font-size: 10px;
+    padding-bottom: 1px;
+}
+
+.menu2{
+    margin-right: 300px;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    background: #38302D;
+
+}
+.menu{
+    margin-right: 10px;
+}
+
+.col1{
+
 }
 
