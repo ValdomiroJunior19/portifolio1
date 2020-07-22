@@ -7,19 +7,57 @@ body{
       
 }
 
+.txt{
+    margin: 10vh 0px;
+    background-color: red;
+}
+.txt1{
+    margin: 10vh 0px 0px 0vh;
+    background-color: red;
+}
+
+
+.card-body{
+     padding:0px;
+}
+
+.tx-flex{
+    display: flex;
+    margin-left: auto;
+    padding: 0px 11px
+}
+
+.ctn{
+    overflow: auto;
+    
+}
+
+
+
+.card-text{
+    font-size: 20px;
+    padding: 0px;
+    background-color: blue;
+}
+
 h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: yellowgreen;
     text-align: center;
+    display: block;
 }
 
+
 p{
-    font-size: 22px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    display: block;
 }
 
 .margemx{
-    text-indent: 50px;
+     text-indent: 50px;
+     height: 100%;
+      
 }
 
 .img-contato{
@@ -35,7 +73,7 @@ p{
 
 .quem-sou{
     background-color: red;
-    height: 300px;
+    height: 100%;
     color: black;
     margin-bottom: 50px;  
     margin-top: 50px;
@@ -47,8 +85,8 @@ p{
     margin-bottom: 50px;  
 }
 .certificacoes{
-    background-color: gold;
-    height: 700px;
+    background-color: red;
+    height: 1400px;
     color: black;
     margin-bottom: 50px;  
 }
@@ -64,8 +102,10 @@ p{
     padding-top: 10px;
 }
 .margem2{
-    padding-bottom: 10px;
-    padding-top: 60px;
+    /* padding-bottom: 10px;
+    padding-top: 60px; */
+    
+    background-color: blue;
 }
 .margem3{
     padding-bottom: 30px;
@@ -75,13 +115,15 @@ p{
 .bg-footer{
     background-color: black;
     color: white;
-    font-size: 10px;
     padding-bottom: 1px;
 }
 
-.menu2{
-    margin-right: 300px;
+.tamanho{
+    font-weight: bold;
+    font-size: 16px;
 }
+
+
 
 .menu a:hover{
     text-decoration: none;
@@ -92,7 +134,82 @@ p{
     margin-right: 10px;
 }
 
-.col1{
 
+
+
+
+
+
+
+
+
+.certificado {
+    overflow: auto;
+    display: flex;
+    margin-bottom: 7vh;
+    display: -webkit-inline-box;
 }
 
+.cert {
+    margin-top: 7vh;
+}
+
+.certificado-grid {
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+    opacity: 1;
+    transform: translate3d(-12px, 0px, 0px);
+}
+
+@media screen and (max-width: 550px) {
+    .certif {
+        margin-right: 15px;
+        margin-left: 5px;
+        background: #bfbbba;
+        border: 1px solid;
+    }
+}
+
+@media (max-width: 365px) {
+    .img-fluid {
+        width: 51%;
+        padding-left: 0px;
+        margin-right: -20;
+        margin-left: -20;
+    }
+}
+
+@media (min-width: 367px) {
+    .img-fluid {
+        width: 56%;
+        padding-left: 0px;
+        margin-right: -20;
+        margin-left: -20;
+    }
+}
+
+.certif {
+    margin-right: 15px;
+    background: #bfbbba;
+    border: 1px solid;
+    margin-right: -10;
+    margin-left: -10;
+}
+
+.nameTitulo {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    border-bottom-style: double;
+    border-top-style: double;
+}
+
+.titulosVerde {
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2c3e50;
+}
